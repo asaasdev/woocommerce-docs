@@ -12,21 +12,6 @@ O plugin disponibilizará as seguintes formas de pagamento em sua loja.
 - Cartão de Crédito (à vista e parcelado)
 
 
-### Índice:
-- Requisitos
-- Vantagens
-- Instalando o Plugin Asaas
-- Plugins secundários
-- Ativando as formas de pagamento
-- Ambientes e API Key 
-- Configuração dos Webhooks
-- Configurando Boleto Bancário
-- Configurando PIX
-- Configurando Cartão de Crédito
-- Troubleshooting (Erros comuns)
-- Configurando CloudFlare
-
-
 ## Requisitos
 
 Para o correto funcionamento de nosso Plugin e para garantir compatibilidade com todas as próximas atualizações, recomendamos que sua loja esteja nas seguintes versões mínimas:
@@ -235,6 +220,23 @@ Permite a Asaas enviar e-mail e SMS sobre a compra para seu cliente e notificaç
 
 ### API
 Caso já tenha configurado seguindo o fluxo da seção "Ambientes, API Key e Configurações de Webhook", não será necessário configurar novamente.
+
+## Assinaturas
+
+Se você possui em sua loja o Plugin *WooCommerce Subscriptions*, poderá utilizá-lo em conjunto com o Asaas para criar e gerenciar suas cobranças de boleto bancário e cartão de crédito no formato de recorrência/assinaturas
+
+O gateway Asaas suporta recorrências nos seguintes ciclos: MENSAL, QUINZENAL, BIMESTRAL, TRIMESTRAL, SEMESTRAL, ANUAL.
+
+Para criar e gerenciar suas assinaturas, basta acessar o menu WooCommerce > Assinaturas.
+
+No menu, você poderá acompanhar o status de todas as suas assinaturas já criadas, além de criar novas assinaturas.
+
+Com o plugin Asaas, você pode criar assinaturas com tempo de teste (trial), além de cobrar também taxas de inscrição.
+
+Todos os pedidos criados dentro de uma assinatura ficarão atrelados para a mesma como "pedido-filho", e poderão ser visualizadas dentro do painel de gestão da assinatura, no campo "Compras relacionadas".
+
+É possível também, determinar uma data fim para a assinatura diretamente nas configurações da mesma, sendo que essa configuração será enviada ao Asaas para determinar o término das cobranças.
+
 
 ## Troubleshooting (Erros comuns)
 

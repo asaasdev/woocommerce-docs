@@ -372,16 +372,20 @@ Dê um nome para sua Regra.
 
 Crie 4 condições, usando a condição "Ou".
 
-No campo de condição "Quando as solicitações recebidas coincidirem", defina "Endereço de Origem IP" "é igual a", e informar os 4 IPs de Origem dos Webhooks Asaas, que são:
+No campo de condição "Quando as solicitações recebidas coincidirem", defina "Endereço de Origem IP" "é igual a", e informar os 6 IPs de Origem dos Webhooks Asaas, que são:
 
 54.94.183.101
 52.67.12.206
 54.94.136.112
 54.94.135.45
+52.67.211.226
+18.230.8.159
+
 
 No campo "Depois..." escolha a ação "Permitir. No término, a configuração deverá estar dessa forma:
 
-![image](https://user-images.githubusercontent.com/26120555/191983864-fb869ae7-817f-45cf-845d-0e2f973e0d61.png)
+![image](https://user-images.githubusercontent.com/26120555/209349501-a10d79e1-6012-40c2-b0da-e25974953397.png)
+
 
 Ao finalizar, clique em "Implantar regra de Firewall".
 
@@ -395,7 +399,8 @@ Mas dessa vez, na seção "Depois", escolha a ação "Ignorar", e selecione a op
 
 No término, a configuração deverá estar dessa forma:
 
-![image](https://user-images.githubusercontent.com/26120555/191984988-b626be05-9984-4606-aa94-8f0512e25ce4.png)
+![image](https://user-images.githubusercontent.com/26120555/209349586-ca19c554-7b81-4c68-8b2f-96241b9df612.png)
+
 
 Se estiver tudo certo, clique em "Implantar regra de Firewall".
 

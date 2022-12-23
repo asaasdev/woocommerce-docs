@@ -370,7 +370,7 @@ No lado direito, escolha a opção "WAF" do fluxo de Sequência de Tráfego, e v
 
 Dê um nome para sua Regra.
 
-Crie 4 condições, usando a condição "Ou".
+Crie 6 condições, usando a condição "Ou".
 
 No campo de condição "Quando as solicitações recebidas coincidirem", defina "Endereço de Origem IP" "é igual a", e informar os 6 IPs de Origem dos Webhooks Asaas, que são:
 

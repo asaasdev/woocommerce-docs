@@ -11,3 +11,6 @@
 ### Link dos mockups
 
 ### Prints do desenvolvimento
+
+### Revisado Local pela IA
+- [ ] Sim
